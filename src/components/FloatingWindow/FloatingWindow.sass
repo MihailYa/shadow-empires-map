@@ -1,0 +1,13 @@
+@import "../../global/colors"
+
+.floatingWindow
+  position: absolute
+  background-color: $lightBGColor
+  .floatingWindowHandle
+    background-color: $darkBGColor
+    width: 100%
+    height: 8px
+    &:hover
+      cursor: move
+  .floatingWindowContent
+    padding: 8px
